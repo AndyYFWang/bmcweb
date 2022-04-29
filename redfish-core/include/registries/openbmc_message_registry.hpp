@@ -382,6 +382,15 @@ constexpr std::array registry = {
                      {},
                      "None.",
                  }},
+    MessageEntry{"DiscreteSensorOK",
+                 {
+                     "Indicates that discrete sensor information.",
+                     "%1",
+                     "OK",
+                     1,
+                     {"string"},
+                     "None.",
+                 }},
     MessageEntry{"DriveError",
                  {
                      "Indicates that a Drive Error occurred of "
