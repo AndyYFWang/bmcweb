@@ -387,7 +387,6 @@ constexpr std::array registry = {
                      "Indicates that discrete sensor information.",
                      "%1",
                      "OK",
-                     "OK",
                      1,
                      {"string"},
                      "None.",
@@ -397,7 +396,6 @@ constexpr std::array registry = {
                      "Indicates that discrete sensor warning message.",
                      "%1",
                      "Warning",
-                     "Warning",
                      1,
                      {"string"},
                      "None.",
@@ -406,7 +404,6 @@ constexpr std::array registry = {
                  {
                      "Indicates that discrete sensor critical message.",
                      "%1",
-                     "Critical",
                      "Critical",
                      1,
                      {"string"},
